@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.logo, .logo2 {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form.principal {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form.descargar {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que padding no aumente el ancho */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.logo, .logo2 {
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Centra las imágenes horizontalmente y agrega un margen vertical */
+}
+
+.logo {
+    width: 150px; /* O el tamaño específico que prefieras para logoservicio.png */
+}
+
+.logo2 {
+    width: 100px; /* O el tamaño específico que prefieras para logouas.jpg */
+}
